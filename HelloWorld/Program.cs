@@ -69,16 +69,31 @@ namespace HelloWorld
 
 
           // // basic-kata-7
-          for(int i = 1; i <= 12; i++){
-            List <string> list = new List <string>(); 
-            for(int j = 1; j <= i; j++){
-              list.Add($"{i}*{j}={i*j}");
-            }
-            Console.WriteLine(string.Join(", ", list));              
-          }
+          // for(int i = 1; i <= 12; i++){
+          //   List <string> list = new List <string>(); 
+          //   for(int j = 1; j <= i; j++){
+          //     list.Add($"{j}*{i}={i*j}");
+          //   }
+          //   Console.WriteLine(string.Join(", ", list));              
+          // }
 
 
           // basic-kata-8
+            Console.WriteLine("Please input a number: ");
+            int number = int.Parse(Console.ReadLine());
+            int randomNumber;
+            Random RNG = new Random();
+            randomNumber = RNG.Next(1,100);
+            while(number!=randomNumber){
+              if(number>randomNumber){
+                Console.WriteLine("Too large! Please try again:");
+              }else if(number<randomNumber){
+                Console.WriteLine("Too small! Please try again:");
+              }
+              number = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("Correct!🎉");
+       
         }
     }
 }
