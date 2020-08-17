@@ -68,14 +68,17 @@ namespace HelloWorld
           // }
 
 
-          // basic-kata-7
+          // // basic-kata-7
           for(int i = 1; i <= 12; i++){
-            List <int> list = new List <int>(); 
-            for(int j = 1; j <= 12; j++){
-              list.Add(i*j);
+            List <string> list = new List <string>(); 
+            for(int j = 1; j <= i; j++){
+              list.Add($"{i}*{j}={i*j}");
             }
             Console.WriteLine(string.Join(", ", list));              
-          }                             
+          }
+
+
+          // basic-kata-8
         }
     }
 }
