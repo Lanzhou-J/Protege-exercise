@@ -84,15 +84,19 @@ namespace HelloWorld
             int randomNumber;
             Random RNG = new Random();
             randomNumber = RNG.Next(1,100);
+            int tries = 1;
             while(number!=randomNumber){
               if(number>randomNumber){
+                tries++;
                 Console.WriteLine("Too large! Please try again:");
               }else if(number<randomNumber){
+                tries++;
                 Console.WriteLine("Too small! Please try again:");
               }
               number = int.Parse(Console.ReadLine());
             }
             Console.WriteLine("Correct!🎉");
+            Console.WriteLine($"You have tried {tries} times.");
        
         }
     }
