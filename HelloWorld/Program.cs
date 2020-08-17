@@ -29,7 +29,7 @@ namespace HelloWorld
           int startNum = 1;
           int sum = 0; 
           while(startNum <= number){
-            if(startNum % 3==0 | startNum % 5==0){
+            if(startNum % 3 == 0 | startNum % 5 == 0){
               sum += startNum;
             }
             startNum++;
