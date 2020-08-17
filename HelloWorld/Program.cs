@@ -104,8 +104,18 @@ namespace HelloWorld
           // Console.WriteLine($"You have tried {tries} times.");
 
           // basic-kata-9
-          
-
+          int counts = 0;
+          int year = 2020;
+          List <int> leapYearList = new List <int>(); 
+          do {
+            if((year % 100 != 0 & year % 4 == 0) | year % 400 == 0){
+              leapYearList.Add(year);
+              counts++;
+            }
+            year++;
+          }while(counts<20);
+          Console.WriteLine("The next 20 leap years:");
+          leapYearList.ForEach(Console.WriteLine);
 
         }
     }
