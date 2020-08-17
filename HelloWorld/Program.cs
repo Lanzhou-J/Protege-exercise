@@ -44,14 +44,26 @@ namespace HelloWorld
             Console.WriteLine("\nSelect 1 to computing the sum of 1,...,n "); 
             Console.WriteLine("\nSelect 2 to computing the product of 1,...,n ");
             Console.WriteLine(">>> ");
-            int selection = int.Parse(Console.ReadLine());      
+            int selection = int.Parse(Console.ReadLine());
+
+            //product function
+            int Product(int number){
+              int startNum = 1;
+              int product = 1;
+              while(startNum <= number){
+                product *= startNum;
+                startNum++;              
+              }
+              return product;
+            }
+
             switch (selection)
             {
               case 1:
                 Console.WriteLine(Sum(number));
                 break;
               case 2:
-                Console.WriteLine("Case 2");
+                Console.WriteLine(Product(number));
                 break;
           }                              
         }
