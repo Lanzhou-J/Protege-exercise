@@ -79,20 +79,26 @@ namespace HelloWorld
 
 
           // basic-kata-8
-            Console.WriteLine("Please input a number: ");
+            Console.WriteLine("Please input a number from 1 to 100: ");
             int number = int.Parse(Console.ReadLine());
             int randomNumber;
             Random RNG = new Random();
             randomNumber = RNG.Next(1,100);
+            int preNum = number - 1;
             int tries = 1;
             while(number!=randomNumber){
               if(number>randomNumber){
-                tries++;
+                if(number!=preNum){
+                  tries++;
+                }
                 Console.WriteLine("Too large! Please try again:");
               }else if(number<randomNumber){
-                tries++;
+                if(number!=preNum){
+                  tries++;
+                }
                 Console.WriteLine("Too small! Please try again:");
               }
+              preNum = number;
               number = int.Parse(Console.ReadLine());
             }
             Console.WriteLine("Correct!🎉");
