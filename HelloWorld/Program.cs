@@ -103,19 +103,32 @@ namespace HelloWorld
           // Console.WriteLine("Correct!🎉");
           // Console.WriteLine($"You have tried {tries} times.");
 
-          // basic-kata-9
-          int counts = 0;
-          int year = 2020;
-          List <int> leapYearList = new List <int>(); 
-          do {
-            if((year % 100 != 0 & year % 4 == 0) | year % 400 == 0){
-              leapYearList.Add(year);
-              counts++;
+          // // basic-kata-9
+          // int counts = 0;
+          // int year = 2020;
+          // List <int> leapYearList = new List <int>(); 
+          // do {
+          //   if((year % 100 != 0 & year % 4 == 0) | year % 400 == 0){
+          //     leapYearList.Add(year);
+          //     counts++;
+          //   }
+          //   year++;
+          // }while(counts<20);
+          // Console.WriteLine("The next 20 leap years:");
+          // leapYearList.ForEach(Console.WriteLine);
+
+          //Kata-Fizzbuzz
+          for(int i = 1; i <= 100; i++){
+            string newStr="";
+            if(i%3==0){
+              newStr += "Fizz";
             }
-            year++;
-          }while(counts<20);
-          Console.WriteLine("The next 20 leap years:");
-          leapYearList.ForEach(Console.WriteLine);
+            if(i%5==0){
+              newStr += "Buzz";
+            }
+            var result = (newStr.Length==0)?$"{i}":newStr;
+            Console.WriteLine(result);
+          }
 
         }
     }
