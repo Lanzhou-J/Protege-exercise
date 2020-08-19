@@ -112,32 +112,31 @@ namespace HelloWorld
           // Console.WriteLine($"You have tried {tries} times.");
 
           // // basic-kata-9
-          int counts = 0;
-          int year = 2021;
-          // Mentors advice: Don't need to use list here.
-          Console.WriteLine("The next 20 leap years:");
-          do {
-            if((year % 100 != 0 & year % 4 == 0) | year % 400 == 0){
-              counts++;
-              Console.WriteLine($"Count {counts}: {year}");
-            }
-            year++;
-          }while(counts<20);
+          // int counts = 0;
+          // int year = 2021;
+          // // Mentors advice: Don't need to use list here.
+          // Console.WriteLine("The next 20 leap years:");
+          // do {
+          //   if((year % 100 != 0 & year % 4 == 0) | year % 400 == 0){
+          //     counts++;
+          //     Console.WriteLine($"Count {counts}: {year}");
+          //   }
+          //   year++;
+          // }while(counts<20);
           
 
           //Kata-Fizzbuzz
-          // for(int i = 1; i <= 100; i++){
-          //   string newStr="";
-          //   if(i%3==0){
-          //     newStr += "Fizz";
-          //   }
-          //   if(i%5==0){
-          //     newStr += "Buzz";
-          //   }
-          //   var result = (newStr.Length==0)?$"{i}":newStr;
-          //   Console.WriteLine(result);
-          // }
-
+          for(int i = 1; i <= 100; i++){
+            string newString="";
+            if(i % 3 == 0){
+              newString += "Fizz";
+            }
+            if(i % 5 == 0){
+              newString += "Buzz";
+            }
+            var result = (newString.Length == 0) ? $"{i}" : newString;
+            Console.WriteLine(result);
+          }
         }
     }
 }
