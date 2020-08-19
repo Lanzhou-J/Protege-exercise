@@ -82,47 +82,46 @@ namespace HelloWorld
 
 
           // // basic-kata-8
-          Console.WriteLine("Please input a number from 1 to 100: ");
-          int inputNumber = int.Parse(Console.ReadLine());
-          int secretNumber;
-          // Random number generator
-          Random randomNumberGenerator = new Random();
-          secretNumber = randomNumberGenerator.Next(1,100);
-          int previousNumber = inputNumber - 1;
-          int tries = 1;
-          // take Meaningful words form requirements
-          // change randomNumber to secretNumber
-          // number => actually input
-          while(inputNumber != secretNumber){
-            if(inputNumber > secretNumber){
-              Console.WriteLine("Too large! Please try again:");
-              if(inputNumber != previousNumber){
-                tries++;
-              }       
-            }else if(inputNumber < secretNumber){
-              Console.WriteLine("Too small! Please try again:");
-              if(inputNumber != previousNumber){
-                tries++;
-              }
-            }
-            previousNumber = inputNumber;
-            inputNumber = int.Parse(Console.ReadLine());
-          }
-          Console.WriteLine("Correct!🎉");
-          Console.WriteLine($"You have tried {tries} times.");
+          // Console.WriteLine("Please input a number from 1 to 100: ");
+          // int inputNumber = int.Parse(Console.ReadLine());
+          // int secretNumber;
+          // // Random number generator
+          // Random randomNumberGenerator = new Random();
+          // secretNumber = randomNumberGenerator.Next(1,100);
+          // int previousNumber = inputNumber - 1;
+          // int tries = 1;
+          // // Mentors advice: take Meaningful words form requirements
+          // // Mentors advice: change randomNumber to secretNumber
+          // // Mentors advice: number => actually input
+          // while(inputNumber != secretNumber){
+          //   if(inputNumber > secretNumber){
+          //     Console.WriteLine("Too large! Please try again:");
+          //     if(inputNumber != previousNumber){
+          //       tries++;
+          //     }       
+          //   }else if(inputNumber < secretNumber){
+          //     Console.WriteLine("Too small! Please try again:");
+          //     if(inputNumber != previousNumber){
+          //       tries++;
+          //     }
+          //   }
+          //   previousNumber = inputNumber;
+          //   inputNumber = int.Parse(Console.ReadLine());
+          // }
+          // Console.WriteLine("Correct!🎉");
+          // Console.WriteLine($"You have tried {tries} times.");
 
           // // basic-kata-9
-          // int counts = 0;
-          // int year = 2020;
-          // // Don't need to use list here.
-          // List <int> leapYearList = new List <int>(); 
-          // do {
-          //   if((year % 100 != 0 & year % 4 == 0) | year % 400 == 0){
-          //     leapYearList.Add(year);
-          //     counts++;
-          //   }
-          //   year++;
-          // }while(counts<20);
+          int counts = 0;
+          int year = 2020;
+          // Mentors advice: Don't need to use list here.
+          do {
+            if((year % 100 != 0 & year % 4 == 0) | year % 400 == 0){
+              counts++;
+              Console.WriteLine($"Count {counts}: {year}");
+            }
+            year++;
+          }while(counts<20);
           // Console.WriteLine("The next 20 leap years:");
           // leapYearList.ForEach(Console.WriteLine);
 
