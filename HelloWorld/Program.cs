@@ -126,17 +126,17 @@ namespace HelloWorld
           
 
           //Kata-Fizzbuzz
-          for(int i = 1; i <= 100; i++){
-            string newString="";
-            if(i % 3 == 0){
-              newString += "Fizz";
-            }
-            if(i % 5 == 0){
-              newString += "Buzz";
-            }
-            var result = (newString.Length == 0) ? $"{i}" : newString;
-            Console.WriteLine(result);
-          }
+          // for(int i = 1; i <= 100; i++){
+          //   string newString="";
+          //   if(i % 3 == 0){
+          //     newString += "Fizz";
+          //   }
+          //   if(i % 5 == 0){
+          //     newString += "Buzz";
+          //   }
+          //   var result = (newString.Length == 0) ? $"{i}" : newString;
+          //   Console.WriteLine(result);
+          // }
         }
     }
 }
