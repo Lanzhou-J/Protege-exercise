@@ -10,33 +10,34 @@ namespace HelloWorld
         static void Main(string[] args)
         {
           // // basic-kata-4
-          int Sum(int inputN){
-            int number = 1;
-            int sum = 0;
-            while(number <= inputN){
-              sum += number;
-              number++;
-            }
-            return sum;
-          }
-          Console.WriteLine("Please input a number equal to or larger than 1: ");
-          int input = int.Parse(Console.ReadLine());
-          Console.WriteLine(Sum(input));
+          // int Sum(int inputN){
+          //   int addend = 1;
+          //   int sum = 0;
+          //   while(addend <= inputN){
+          //     sum += addend;
+          //     addend++;
+          //   }
+          //   return sum;
+          // }
+          // Console.WriteLine("Please input a number equal to or larger than 1: ");
+          // int inputN = int.Parse(Console.ReadLine());
+          // Console.WriteLine("Sum: " + Sum(inputN));
 
 
           // // basic-kata-5
-          // Console.WriteLine("Please input a number: ");
-          // int number = int.Parse(Console.ReadLine());
-          // int startNum = 1;
-          // // int sum = 0; 
-          // while(startNum <= number){
-          //   if(startNum % 3 == 0 || startNum % 5 == 0){
-          //     // sum += startNum;
-          //     Console.WriteLine(startNum);
-          //   }
-          //   startNum++;
-          // }
-          // // Console.WriteLine(sum);
+          Console.WriteLine("Please input a number: ");
+          int inputN = int.Parse(Console.ReadLine());
+          int loopNumber = 1;
+          int multipleOfThreeOrFiveSum = 0; 
+          while(loopNumber <= inputN){
+            if(loopNumber % 3 == 0 || loopNumber % 5 == 0){
+              multipleOfThreeOrFiveSum += loopNumber;
+              // Console.WriteLine(loopNumber);
+            }
+            loopNumber++;
+          }
+          Console.WriteLine("Sum of the numbers 1 to n if the number is a multiple of three or five:");
+          Console.WriteLine(multipleOfThreeOrFiveSum);
 
 
           // // basic-kata-6
