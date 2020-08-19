@@ -10,61 +10,61 @@ namespace HelloWorld
         static void Main(string[] args)
         {
           // // basic-kata-4
-          // int Sum(int inputN){
-          //   int addend = 1;
-          //   int sum = 0;
-          //   while(addend <= inputN){
-          //     sum += addend;
-          //     addend++;
-          //   }
-          //   return sum;
-          // }
-          // Console.WriteLine("Please input a number equal to or larger than 1: ");
+          int calculateSumOfOneToN(int inputN){
+            int addend = 1;
+            int oneToNSum = 0;
+            while(addend <= inputN){
+              oneToNSum += addend;
+              addend++;
+            }
+            return oneToNSum;
+          }
+          // Console.WriteLine("Please input a number(n) equal to or larger than 1: ");
           // int inputN = int.Parse(Console.ReadLine());
-          // Console.WriteLine("Sum: " + Sum(inputN));
+          // Console.WriteLine("Sum of the numbers 1 to n: " + calculateSumOfOneToN(inputN));
 
 
           // // basic-kata-5
-          Console.WriteLine("Please input a number: ");
-          int inputN = int.Parse(Console.ReadLine());
-          int loopNumber = 1;
-          int multipleOfThreeOrFiveSum = 0; 
-          while(loopNumber <= inputN){
-            if(loopNumber % 3 == 0 || loopNumber % 5 == 0){
-              multipleOfThreeOrFiveSum += loopNumber;
-              // Console.WriteLine(loopNumber);
-            }
-            loopNumber++;
-          }
-          Console.WriteLine("Sum of the numbers 1 to n if the number is a multiple of three or five:");
-          Console.WriteLine(multipleOfThreeOrFiveSum);
+          // Console.WriteLine("Please input a number(n) equal to or larger than 1: ");
+          // int inputN = int.Parse(Console.ReadLine());
+          // int loopNumber = 1;
+          // int multipleOfThreeOrFiveSum = 0; 
+          // while(loopNumber <= inputN){
+          //   if(loopNumber % 3 == 0 || loopNumber % 5 == 0){
+          //     multipleOfThreeOrFiveSum += loopNumber;
+          //     // Console.WriteLine(loopNumber);
+          //   }
+          //   loopNumber++;
+          // }
+          // Console.WriteLine("Sum of the numbers 1 to n if the number is a multiple of three or five:");
+          // Console.WriteLine(multipleOfThreeOrFiveSum);
 
 
           // // basic-kata-6
-          // // Error handling (floats/0/-n)
-          //   Console.WriteLine("Please input a number: ");
-          //   int number = int.Parse(Console.ReadLine());
-          //   Console.WriteLine("\nSelect 1 to computing the sum of 1,...,n "); 
-          //   Console.WriteLine("\nSelect 2 to computing the product of 1,...,n ");
-          //   Console.WriteLine(">>> ");
+          // // Mentors advice: Error handling (floats/0/-n)
+          //   Console.WriteLine("Please input a number(n) equal to or larger than 1: ");
+          //   int inputN = int.Parse(Console.ReadLine());
+          //   Console.WriteLine("\nSelect 1 for computing the sum of 1,...,n "); 
+          //   Console.WriteLine("\nSelect 2 for computing the product of 1,...,n ");
+          //   Console.WriteLine("\nYour selection is: ");
           //   int selection = int.Parse(Console.ReadLine());
           //   //product function
-          //   int Product(int number){
-          //     int startNum = 1;
-          //     int product = 1;
-          //     while(startNum <= number){
-          //       product *= startNum;
-          //       startNum++;              
+          //   int calculateProductOfOneToN(int inputN){
+          //     int factor = 1;
+          //     int oneToNProduct = 1;
+          //     while(factor <= inputN){
+          //       oneToNProduct *= factor;
+          //       factor++;              
           //     }
-          //     return product;
+          //     return oneToNProduct;
           //   }
           //   switch (selection)
           //   {
           //     case 1:
-          //       Console.WriteLine(Sum(number));
+          //       Console.WriteLine("Sum of the numbers 1 to n: " + calculateSumOfOneToN(inputN));
           //       break;
           //     case 2:
-          //       Console.WriteLine(Product(number));
+          //       Console.WriteLine("Product of the numbers 1 to n: " + calculateProductOfOneToN(inputN));
           //       break;
           // }
 
