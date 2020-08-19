@@ -70,46 +70,46 @@ namespace HelloWorld
 
 
           // // basic-kata-7
-          // Meaningful naming.(i and j => factors)
-          // Use terminology instead of create ...
-          for(int secondFactor = 1; secondFactor <= 12; secondFactor++){
-            List <string> multiplicationTableRow = new List <string>(); 
-            for(int firstFactor = 1; firstFactor <= secondFactor; firstFactor++){
-              multiplicationTableRow.Add($"{firstFactor}*{secondFactor}={firstFactor*secondFactor}");
-            }
-            Console.WriteLine(string.Join(", ", multiplicationTableRow));              
-          }
+          // Mentors advice: Meaningful naming.(i and j => factors)
+          // Mentors advice: Use terminology instead of create ...
+          // for(int secondFactor = 1; secondFactor <= 12; secondFactor++){
+          //   List <string> multiplicationTableRow = new List <string>(); 
+          //   for(int firstFactor = 1; firstFactor <= secondFactor; firstFactor++){
+          //     multiplicationTableRow.Add($"{firstFactor}*{secondFactor}={firstFactor*secondFactor}");
+          //   }
+          //   Console.WriteLine(string.Join(", ", multiplicationTableRow));              
+          // }
 
 
           // // basic-kata-8
-          // Console.WriteLine("Please input a number from 1 to 100: ");
-          // int number = int.Parse(Console.ReadLine());
-          // int randomNumber;
-          // // Random number generator
-          // Random RNG = new Random();
-          // randomNumber = RNG.Next(1,100);
-          // int preNum = number - 1;
-          // int tries = 1;
-          // // take Meaningful words form requirements
-          // // change randomNumber to secretNumber
-          // // number => actually input
-          // while(number!=randomNumber){
-          //   if(number>randomNumber){
-          //     if(number!=preNum){
-          //       tries++;
-          //     }
-          //     Console.WriteLine("Too large! Please try again:");
-          //   }else if(number<randomNumber){
-          //     if(number!=preNum){
-          //       tries++;
-          //     }
-          //     Console.WriteLine("Too small! Please try again:");
-          //   }
-          //   preNum = number;
-          //   number = int.Parse(Console.ReadLine());
-          // }
-          // Console.WriteLine("Correct!🎉");
-          // Console.WriteLine($"You have tried {tries} times.");
+          Console.WriteLine("Please input a number from 1 to 100: ");
+          int inputNumber = int.Parse(Console.ReadLine());
+          int secretNumber;
+          // Random number generator
+          Random randomNumberGenerator = new Random();
+          secretNumber = randomNumberGenerator.Next(1,100);
+          int previousNumber = inputNumber - 1;
+          int tries = 1;
+          // take Meaningful words form requirements
+          // change randomNumber to secretNumber
+          // number => actually input
+          while(inputNumber != secretNumber){
+            if(inputNumber > secretNumber){
+              Console.WriteLine("Too large! Please try again:");
+              if(inputNumber != previousNumber){
+                tries++;
+              }       
+            }else if(inputNumber < secretNumber){
+              Console.WriteLine("Too small! Please try again:");
+              if(inputNumber != previousNumber){
+                tries++;
+              }
+            }
+            previousNumber = inputNumber;
+            inputNumber = int.Parse(Console.ReadLine());
+          }
+          Console.WriteLine("Correct!🎉");
+          Console.WriteLine($"You have tried {tries} times.");
 
           // // basic-kata-9
           // int counts = 0;
