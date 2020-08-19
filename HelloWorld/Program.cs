@@ -10,15 +10,15 @@ namespace HelloWorld
         static void Main(string[] args)
         {
           // // basic-kata-4
-          int calculateSumOfOneToN(int inputN){
-            int addend = 1;
-            int oneToNSum = 0;
-            while(addend <= inputN){
-              oneToNSum += addend;
-              addend++;
-            }
-            return oneToNSum;
-          }
+          // int calculateSumOfOneToN(int inputN){
+          //   int addend = 1;
+          //   int oneToNSum = 0;
+          //   while(addend <= inputN){
+          //     oneToNSum += addend;
+          //     addend++;
+          //   }
+          //   return oneToNSum;
+          // }
           // Console.WriteLine("Please input a number(n) equal to or larger than 1: ");
           // int inputN = int.Parse(Console.ReadLine());
           // Console.WriteLine("Sum of the numbers 1 to n: " + calculateSumOfOneToN(inputN));
@@ -72,13 +72,13 @@ namespace HelloWorld
           // // basic-kata-7
           // Meaningful naming.(i and j => factors)
           // Use terminology instead of create ...
-          // for(int i = 1; i <= 12; i++){
-          //   List <string> list = new List <string>(); 
-          //   for(int j = 1; j <= 12; j++){
-          //     list.Add($"{j}*{i}={i*j}");
-          //   }
-          //   Console.WriteLine(string.Join(", ", list));              
-          // }
+          for(int secondFactor = 1; secondFactor <= 12; secondFactor++){
+            List <string> multiplicationTableRow = new List <string>(); 
+            for(int firstFactor = 1; firstFactor <= secondFactor; firstFactor++){
+              multiplicationTableRow.Add($"{firstFactor}*{secondFactor}={firstFactor*secondFactor}");
+            }
+            Console.WriteLine(string.Join(", ", multiplicationTableRow));              
+          }
 
 
           // // basic-kata-8
