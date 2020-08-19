@@ -113,8 +113,9 @@ namespace HelloWorld
 
           // // basic-kata-9
           int counts = 0;
-          int year = 2020;
+          int year = 2021;
           // Mentors advice: Don't need to use list here.
+          Console.WriteLine("The next 20 leap years:");
           do {
             if((year % 100 != 0 & year % 4 == 0) | year % 400 == 0){
               counts++;
@@ -122,8 +123,7 @@ namespace HelloWorld
             }
             year++;
           }while(counts<20);
-          // Console.WriteLine("The next 20 leap years:");
-          // leapYearList.ForEach(Console.WriteLine);
+          
 
           //Kata-Fizzbuzz
           // for(int i = 1; i <= 100; i++){
