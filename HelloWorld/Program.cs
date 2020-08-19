@@ -73,11 +73,11 @@ namespace HelloWorld
           // Mentors advice: Meaningful naming.(i and j => factors)
           // Mentors advice: Use terminology instead of create ...
           // for(int secondFactor = 1; secondFactor <= 12; secondFactor++){
-          //   List <string> multiplicationTableRow = new List <string>(); 
+          //   List <string> multiplicationTableColumns = new List <string>(); 
           //   for(int firstFactor = 1; firstFactor <= secondFactor; firstFactor++){
-          //     multiplicationTableRow.Add($"{firstFactor}*{secondFactor}={firstFactor*secondFactor}");
+          //     multiplicationTableColumns.Add($"{firstFactor}*{secondFactor}={firstFactor*secondFactor}");
           //   }
-          //   Console.WriteLine(string.Join(", ", multiplicationTableRow));              
+          //   Console.WriteLine(string.Join(", ", multiplicationTableColumns));              
           // }
 
 
@@ -88,7 +88,7 @@ namespace HelloWorld
           // // Random number generator
           // Random randomNumberGenerator = new Random();
           // secretNumber = randomNumberGenerator.Next(1,100);
-          // int previousNumber = inputNumber - 1;
+          // int previousNumber = - 1;
           // int tries = 1;
           // // Mentors advice: take Meaningful words form requirements
           // // Mentors advice: change randomNumber to secretNumber
@@ -126,17 +126,17 @@ namespace HelloWorld
           
 
           //Kata-Fizzbuzz
-          // for(int i = 1; i <= 100; i++){
-          //   string newString="";
-          //   if(i % 3 == 0){
-          //     newString += "Fizz";
-          //   }
-          //   if(i % 5 == 0){
-          //     newString += "Buzz";
-          //   }
-          //   var result = (newString.Length == 0) ? $"{i}" : newString;
-          //   Console.WriteLine(result);
-          // }
+          for(int i = 1; i <= 100; i++){
+            string fizzBuzzString="";
+            if(i % 3 == 0){
+              fizzBuzzString += "Fizz";
+            }
+            if(i % 5 == 0){
+              fizzBuzzString += "Buzz";
+            }
+            var result = (fizzBuzzString.Length == 0) ? $"{i}" : fizzBuzzString;
+            Console.WriteLine(result);
+          }
         }
     }
 }
