@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dI/OaiqqTkcCKztNe2FLRtIyHLwnZofBwi16Wlo/IZ4C3NarS4JN+BZAPXRpBgNuxO97vljbB5Wv/MJO1t0Oig==",
+  "success": true,
+  "projectFilePath": "/Users/lanzhou.jiang/Desktop/Protege_exercise/basic-kata-using-dotnet-test/BasicKata/BasicKata.csproj",
+  "expectedPackageFiles": [
+    "/Users/lanzhou.jiang/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/lanzhou.jiang/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
