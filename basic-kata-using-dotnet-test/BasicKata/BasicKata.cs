@@ -9,19 +9,19 @@ namespace Basic.Kata
     {
         public int CalculateSumOfOneToN(string inputNString)
         {
-            //int inputN = int.Parse(inputNString);
-            //if (inputN < 1)
-            //{
-            //    throw new ArgumentException("Invalid input");
-            //}
-            //int addend = 1;
-            //int oneToNSum = 0;
-            //while (addend <= inputN)
-            //{
-            //    oneToNSum += addend;
-            //    addend++;
-            //}
-            return 6;
+            int inputN = int.Parse(inputNString);
+            if (inputN < 1)
+            {
+               throw new ArgumentException("Invalid input");
+            }
+            int addend = 1;
+            int oneToNSum = 0;
+            while (addend <= inputN)
+            {
+               oneToNSum += addend;
+               addend++;
+            }
+            return oneToNSum;
         }
 
         public List<string> FizzBuzz() {
@@ -46,7 +46,7 @@ namespace Basic.Kata
         public void GuessASecretNumber()
         {
             Console.WriteLine("Please input a number from 1 to 100: ");
-            int inputNumber = int.Parse(Console.ReadLine());
+            int inputNumber = 0;
             int secretNumber;
             // Random number generator
             Random randomNumberGenerator = new Random();
@@ -56,8 +56,9 @@ namespace Basic.Kata
             // Mentors advice: take Meaningful words form requirements
             // Mentors advice: change randomNumber to secretNumber
             // Mentors advice: number => actually input
-            while (inputNumber != secretNumber)
+            do 
             {
+                inputNumber = int.Parse(Console.ReadLine());
                 if (inputNumber > secretNumber)
                 {
                     Console.WriteLine("Too large! Please try again:");
@@ -76,7 +77,8 @@ namespace Basic.Kata
                 }
                 previousNumber = inputNumber;
                 inputNumber = int.Parse(Console.ReadLine());
-            }
+            } while (inputNumber == secretNumber);
+
             Console.WriteLine("Correct!🎉");
             Console.WriteLine($"You have tried {tries} times.");
         }

@@ -3526,14 +3526,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lanzhou.jiang/Desktop/Protege_exercise/unit-testing-using-dotnet-test/PrimeService.Tests/PrimeService.Tests.csproj",
+      "projectUniqueName": "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/unit-testing-using-dotnet-test/PrimeService.Tests/PrimeService.Tests.csproj",
       "projectName": "PrimeService.Tests",
-      "projectPath": "/Users/lanzhou.jiang/Desktop/Protege_exercise/unit-testing-using-dotnet-test/PrimeService.Tests/PrimeService.Tests.csproj",
+      "projectPath": "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/unit-testing-using-dotnet-test/PrimeService.Tests/PrimeService.Tests.csproj",
       "packagesPath": "/Users/lanzhou.jiang/.nuget/packages/",
-      "outputPath": "/Users/lanzhou.jiang/Desktop/Protege_exercise/unit-testing-using-dotnet-test/PrimeService.Tests/obj/",
+      "outputPath": "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/unit-testing-using-dotnet-test/PrimeService.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/lanzhou.jiang/.nuget/NuGet/NuGet.Config"
+        "/Users/lanzhou.jiang/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -3544,8 +3544,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/Users/lanzhou.jiang/Desktop/Protege_exercise/unit-testing-using-dotnet-test/PrimeService/PrimeService.csproj": {
-              "projectPath": "/Users/lanzhou.jiang/Desktop/Protege_exercise/unit-testing-using-dotnet-test/PrimeService/PrimeService.csproj"
+            "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/unit-testing-using-dotnet-test/PrimeService/PrimeService.csproj": {
+              "projectPath": "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/unit-testing-using-dotnet-test/PrimeService/PrimeService.csproj"
             }
           }
         }

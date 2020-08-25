@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lanzhou.jiang/Desktop/Protege_exercise/unit-testing-using-dotnet-test/PrimeService/PrimeService.csproj": {}
+    "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/unit-testing-using-dotnet-test/PrimeService/PrimeService.csproj": {}
   },
   "projects": {
-    "/Users/lanzhou.jiang/Desktop/Protege_exercise/unit-testing-using-dotnet-test/PrimeService/PrimeService.csproj": {
+    "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/unit-testing-using-dotnet-test/PrimeService/PrimeService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lanzhou.jiang/Desktop/Protege_exercise/unit-testing-using-dotnet-test/PrimeService/PrimeService.csproj",
+        "projectUniqueName": "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/unit-testing-using-dotnet-test/PrimeService/PrimeService.csproj",
         "projectName": "PrimeService",
-        "projectPath": "/Users/lanzhou.jiang/Desktop/Protege_exercise/unit-testing-using-dotnet-test/PrimeService/PrimeService.csproj",
+        "projectPath": "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/unit-testing-using-dotnet-test/PrimeService/PrimeService.csproj",
         "packagesPath": "/Users/lanzhou.jiang/.nuget/packages/",
-        "outputPath": "/Users/lanzhou.jiang/Desktop/Protege_exercise/unit-testing-using-dotnet-test/PrimeService/obj/",
+        "outputPath": "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/unit-testing-using-dotnet-test/PrimeService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/lanzhou.jiang/.nuget/NuGet/NuGet.Config"
+          "/Users/lanzhou.jiang/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

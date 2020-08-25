@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lanzhou.jiang/Desktop/Protege_exercise/basic-kata-using-dotnet-test/BasicKata.Tests/BasicKata.Tests.csproj": {}
+    "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/basic-kata-using-dotnet-test/BasicKata.Tests/BasicKata.Tests.csproj": {}
   },
   "projects": {
-    "/Users/lanzhou.jiang/Desktop/Protege_exercise/basic-kata-using-dotnet-test/BasicKata.Tests/BasicKata.Tests.csproj": {
+    "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/basic-kata-using-dotnet-test/BasicKata.Tests/BasicKata.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lanzhou.jiang/Desktop/Protege_exercise/basic-kata-using-dotnet-test/BasicKata.Tests/BasicKata.Tests.csproj",
+        "projectUniqueName": "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/basic-kata-using-dotnet-test/BasicKata.Tests/BasicKata.Tests.csproj",
         "projectName": "BasicKata.Tests",
-        "projectPath": "/Users/lanzhou.jiang/Desktop/Protege_exercise/basic-kata-using-dotnet-test/BasicKata.Tests/BasicKata.Tests.csproj",
+        "projectPath": "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/basic-kata-using-dotnet-test/BasicKata.Tests/BasicKata.Tests.csproj",
         "packagesPath": "/Users/lanzhou.jiang/.nuget/packages/",
-        "outputPath": "/Users/lanzhou.jiang/Desktop/Protege_exercise/basic-kata-using-dotnet-test/BasicKata.Tests/obj/",
+        "outputPath": "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/basic-kata-using-dotnet-test/BasicKata.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lanzhou.jiang/.config/NuGet/NuGet.Config"
@@ -25,8 +25,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/Users/lanzhou.jiang/Desktop/Protege_exercise/basic-kata-using-dotnet-test/BasicKata/BasicKata.csproj": {
-                "projectPath": "/Users/lanzhou.jiang/Desktop/Protege_exercise/basic-kata-using-dotnet-test/BasicKata/BasicKata.csproj"
+              "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/basic-kata-using-dotnet-test/BasicKata/BasicKata.csproj": {
+                "projectPath": "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/basic-kata-using-dotnet-test/BasicKata/BasicKata.csproj"
               }
             }
           }
@@ -76,14 +76,14 @@
         }
       }
     },
-    "/Users/lanzhou.jiang/Desktop/Protege_exercise/basic-kata-using-dotnet-test/BasicKata/BasicKata.csproj": {
+    "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/basic-kata-using-dotnet-test/BasicKata/BasicKata.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lanzhou.jiang/Desktop/Protege_exercise/basic-kata-using-dotnet-test/BasicKata/BasicKata.csproj",
+        "projectUniqueName": "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/basic-kata-using-dotnet-test/BasicKata/BasicKata.csproj",
         "projectName": "BasicKata",
-        "projectPath": "/Users/lanzhou.jiang/Desktop/Protege_exercise/basic-kata-using-dotnet-test/BasicKata/BasicKata.csproj",
+        "projectPath": "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/basic-kata-using-dotnet-test/BasicKata/BasicKata.csproj",
         "packagesPath": "/Users/lanzhou.jiang/.nuget/packages/",
-        "outputPath": "/Users/lanzhou.jiang/Desktop/Protege_exercise/basic-kata-using-dotnet-test/BasicKata/obj/",
+        "outputPath": "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/basic-kata-using-dotnet-test/BasicKata/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lanzhou.jiang/.config/NuGet/NuGet.Config"

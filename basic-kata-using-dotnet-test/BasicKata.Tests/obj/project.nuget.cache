@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lG+ekrVzEZQW8SwCGnXQk9dXNEWEBJtV1f2mWvhI7NFmpG8J+08Rw6uIda19DdZHo0mlelJSQfqY6gGRU6lIgg==",
+  "dgSpecHash": "ioRraxpYirw60oBXpGH1KebfKEJ6n272Tmg+OiGW++wsD7jHwFUIkXsjZGrR1LEiUfo1fE7RIBBtp2tQN8O9sQ==",
   "success": true,
-  "projectFilePath": "/Users/lanzhou.jiang/Desktop/Protege_exercise/basic-kata-using-dotnet-test/BasicKata.Tests/BasicKata.Tests.csproj",
+  "projectFilePath": "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/basic-kata-using-dotnet-test/BasicKata.Tests/BasicKata.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/lanzhou.jiang/.nuget/packages/coverlet.collector/1.2.0/coverlet.collector.1.2.0.nupkg.sha512",
     "/Users/lanzhou.jiang/.nuget/packages/microsoft.codecoverage/16.5.0/microsoft.codecoverage.16.5.0.nupkg.sha512",

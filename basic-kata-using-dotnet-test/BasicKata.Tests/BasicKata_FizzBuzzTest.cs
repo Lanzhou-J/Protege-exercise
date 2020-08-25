@@ -75,8 +75,7 @@ namespace Basic.UnitTests.Kata
         {
             var result = _basicKata.FizzBuzz();
             var actualIndex = count - 1;
-            //Assert.Equal(count, result[actualIndex])
-            Assert.True(result[actualIndex].Length < 4, "The length of the string item is less than 4");
+            Assert.Equal(count.ToString(), result[actualIndex]);
         }
 
         [Theory]
@@ -88,9 +87,9 @@ namespace Basic.UnitTests.Kata
         {
             var result = _basicKata.FizzBuzz();
             var actualIndex = count - 1;
-            Assert.Notqual("Buzz", result[actualIndex]);
-            Assert.NotEqEqual("Fizz", result[actualIndex]);
-            Assert.NotEual("FizzBuzz", result[actualIndex]);
+            Assert.NotEqual("Buzz", result[actualIndex]);
+            Assert.NotEqual("Fizz", result[actualIndex]);
+            Assert.NotEqual("FizzBuzz", result[actualIndex]);
         }
     }
 

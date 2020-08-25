@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EY9syn8v5k5BbRk9duwSv7PjiZfhosYbXP7e7gq4NNsVTgY4YykJqZoD+R3bC24s6a9SNAoRPejwdBekyNQVyA==",
+  "dgSpecHash": "5+TJOm2OTmEA56wxgOh2bJRumIE/iHrSXtIGI2raenZhB0RwsAFxF5LQk/18BdPDxZnjb+a3uSNAZtOg5ikVFA==",
   "success": true,
-  "projectFilePath": "/Users/lanzhou.jiang/Desktop/Protege_exercise/unit-testing-using-dotnet-test/PrimeService/PrimeService.csproj",
+  "projectFilePath": "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/unit-testing-using-dotnet-test/PrimeService/PrimeService.csproj",
   "expectedPackageFiles": [
     "/Users/lanzhou.jiang/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/lanzhou.jiang/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"

@@ -1,12 +1,34 @@
 ﻿<Properties StartupConfiguration="{0AFE0CF8-E121-4FEC-9723-5D05B81E48BE}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="BasicKata/BasicKata.cs">
+    <Files>
+      <File FileName="BasicKata/BasicKata.cs" Line="48" Column="1" />
+      <File FileName="BasicKata.Tests/BasicKata_GuessASecretNumber.cs" Line="24" Column="12" />
+      <File FileName="BasicKata.Tests/BasicKata_FizzBuzzTest.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="basic-kata-using-dotnet-test" expanded="True">
-            <Node name="BasicKata" expanded="True" />
+            <Node name="BasicKata" expanded="True">
+              <Node name="BasicKata.cs" selected="True" />
+            </Node>
+            <Node name="BasicKata.Tests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="basic-kata-using-dotnet-test" expanded="True">
+            <Node name="BasicKata" expanded="True">
+              <Node name="Basic" expanded="True" selected="True">
+                <Node name="Basic.Kata.BasicKata" expanded="True" />
+                <Node name="Kata" expanded="True" />
+              </Node>
+            </Node>
             <Node name="BasicKata.Tests" expanded="True">
-              <Node name="BasicKata_FizzBuzzTest.cs" selected="True" />
+              <Node name="Basic" expanded="True">
+                <Node name="Basic.UnitTests.Kata.BasicKata_FizzBuzzShould" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -14,11 +36,7 @@
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="basic-kata-using-dotnet-test" expanded="True">
-            <Node name="BasicKata.Tests" expanded="True">
-              <Node name="Basic.UnitTests.Kata" expanded="True">
-                <Node name="BasicKata_CalculateSumOfOneToNShould" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="BasicKata.Tests" selected="True" />
           </Node>
         </State>
       </Pad>

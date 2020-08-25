@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lanzhou.jiang/Desktop/Protege_exercise/HelloWorld/HelloWorld.csproj",
+      "projectUniqueName": "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/HelloWorld/HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "/Users/lanzhou.jiang/Desktop/Protege_exercise/HelloWorld/HelloWorld.csproj",
+      "projectPath": "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/HelloWorld/HelloWorld.csproj",
       "packagesPath": "/Users/lanzhou.jiang/.nuget/packages/",
-      "outputPath": "/Users/lanzhou.jiang/Desktop/Protege_exercise/HelloWorld/obj/",
+      "outputPath": "/Users/lanzhou.jiang/Desktop/C-sharp/Protege_exercise/HelloWorld/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lanzhou.jiang/.nuget/NuGet/NuGet.Config"
